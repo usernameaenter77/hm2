@@ -1,0 +1,35 @@
+body .D {
+  width: 200px;
+  height: 200px;
+  background color: #d62e2e;
+  margin: 250px 600px ;
+
+  animation-name: moveX, bgChange;
+  animation-duration: 2s, 2s;
+  animation-iteration-count: infinite, infinite;
+  animation-direction: alternate, alternate-reverse;
+}
+@keyframes moveX {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+@keyframes bgChange {
+  from {
+    background: rgb(0, 30, 128);
+  }
+  to {
+    background: rgb(255, 255, 255);
+  }
+}
+</style > <div class="example-5" > </div > .D {
+}
+
+.H {
+  font-family: Tahoma;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
