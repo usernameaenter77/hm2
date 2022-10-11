@@ -1,4 +1,7 @@
-body .D {
+body {
+    background-color: black;
+}
+.D {
   width: 200px;
   height: 200px;
   background color: #d62e2e;
@@ -19,7 +22,7 @@ body .D {
 }
 @keyframes bgChange {
   from {
-    background: rgb(0, 30, 128);
+    background: rgb(0, 0, 0);
   }
   to {
     background: rgb(255, 255, 255);
